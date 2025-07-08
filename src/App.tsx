@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import NaturalLanguageInput from './components/NaturalLanguageInput'
 import TaskList from './components/TaskList'
-import { Task, ParsedTask } from './types'
+import type { Task, ParsedTask } from './types'
 
 function App() {
   const [tasks, setTasks] = useState<Task[]>([])

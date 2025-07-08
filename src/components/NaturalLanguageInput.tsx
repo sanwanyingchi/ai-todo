@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { parseNaturalLanguageInput } from '../utils';
-import { ParsedTask } from '../types';
+import type { ParsedTask } from '../types';
 
 interface NaturalLanguageInputProps {
   onTasksExtracted: (tasks: ParsedTask[]) => void;

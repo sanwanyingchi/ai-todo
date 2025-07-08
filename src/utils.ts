@@ -1,4 +1,4 @@
-import { ParsedTask } from './types';
+import type { ParsedTask } from './types';
 
 export const parseNaturalLanguageInput = (input: string): ParsedTask[] => {
   const tasks: ParsedTask[] = [];
